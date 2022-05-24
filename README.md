@@ -2,7 +2,8 @@
 Managemente actions and general notes on Windows Subsystem for Linux
 
 ## Integrate WSL with X11 server to support GUI applications 
-Motivation: connecting to a X11 server is essential to allow WSL to run GUI applications. 
+Motivation:   
+Connecting to a X11 server is essential to allow WSL to run GUI applications. 
 
 How: 
 1. First, we need to have a X11 server installed. I've chosen [VcXsrv](https://sourceforge.net/projects/vcxsrv/). After following the installation, we need to locate the program in our local machine and Launch it (there may be a `XLaunch` icon in the installation directory). When launching it, select `Multiple windows` > `Start no client` and then make sure you select the `Disable access control` option. 
